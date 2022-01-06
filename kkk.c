@@ -191,7 +191,7 @@ def httpsender(host, port, timer, punch):
 
 def ntpsender(host, port, timer, punch):
 	global haid
-	global ntp
+	global http
 	global aid
 	global tattacks
 
