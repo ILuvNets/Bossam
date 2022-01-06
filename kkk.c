@@ -94,7 +94,7 @@ altbanner = """
 		      		   B O S S A M N E T 
 """
 
-cookie = open(".sinfull_cookie","w+")
+cookie = open(".bossam_cookie","w+")
 
 fsubs = 0
 tpings = 0
@@ -201,7 +201,7 @@ def ntpsender(host, port, timer, punch):
 			sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			sock.sendto(punch, (host, int(port)))
 			sock.close()
-			except socket.error:
+		except socket.error:
 				pass
 
 	haid -= 1
