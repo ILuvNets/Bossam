@@ -16,13 +16,13 @@ def modifications():
 #column:65
 method = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                     \033[00mBOSSAM METHODS\033[91m                     ║               
+║                     \033[00mBOSSAM METHODS\033[91m                                ║               
 ║══════════════════════════════════════════════════════║
-║ \033[00mUDP  <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m UDP ATTACK\033[91m    ║
-║ \033[00mICMP <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m ICMP ATTACK\033[91m   ║
-║ \033[00mSYN  <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m SYN ATTACK\033[91m    ║
-║ \033[00mHTTP  <HOST> <PORT> <TIME> <SIZE> \033[91m|\033[00m HTTP ATTACK\033[91m   ║
-║ \033[00mNTP  <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m NTP ATTACK\033[91m    ║
+║ \033[00mUDP  <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m UDP ATTACK\033[91m          ║
+║ \033[00mICMP <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m ICMP ATTACK\033[91m         ║
+║ \033[00mSYN  <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m SYN ATTACK\033[91m          ║
+║ \033[00mHTTP  <HOST> <PORT> <TIME> <SIZE> \033[91m|\033[00m HTTP ATTACK\033[91m         ║
+║ \033[00mNTP  <HOST> <PORT> <TIME> <SIZE>  \033[91m|\033[00m NTP ATTACK\033[91m          ║
 ╚══════════════════════════════════════════════════════╝\033[00m
 """
 
@@ -35,14 +35,14 @@ version = "3.2"
 
 help = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                    \033[00mBASIC COMMANDS\033[91m                    ║
+║                    \033[00mBASIC COMMANDS\033[91m                              ║
 ║══════════════════════════════════════════════════════║
 ║ \033[00mClear                         \033[91m|\033[00m CLEAR SCREEN\033[91m         ║
 ║ \033[00mExit                          \033[91m|\033[00m EXIT ARMYNET\033[91m         ║
 ║ \033[00mMethods                       \033[91m|\033[00m BOSS METHODS\033[91m         ║
 ║ \033[00mTools                         \033[91m|\033[00m BASIC TOOLS\033[91m          ║
 ║ \033[00mUpdates                       \033[91m|\033[00m DISPLAY UPDATE NOTES\033[91m ║
-║ \033[00mInfo                          \033[91m|\033[00m DISPLAY KKK NET INFO\033[91m║
+║ \033[00mInfo                          \033[91m|\033[00m DISPLAY BOSS NET INFO\033[91m║
 ╚══════════════════════════════════════════════════════╝\033[00m
 """
 
